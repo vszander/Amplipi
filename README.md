@@ -1,6 +1,7 @@
 # Amplipi
 ### These are my projects that interface with the [AmpliPi](https://github.com/micro-nova/AmpliPi)  from [micro-nova](https://www.micro-nova.com/)
 
+##esp32  Microcontroller 
 The AmpliPI_esp32  sketch was developed on an [TTGO-T-Display](https://github.com/Xinyuan-LilyGO/TTGO-T-Display) esp32 produced by [LilyGO](https://github.com/Xinyuan-LilyGO)  which includes a TFT display and two buttons.
 ![](https://github.com/vszander/Amplipi/blob/main/docs/img/AmpliPi-ttgo.png)
 
