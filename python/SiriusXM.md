@@ -51,8 +51,23 @@ if you do not get errors, there will not be another command prompt.. as the prox
 
 `python3 runvlc.py http://127.0.0.1:8888/siriusnflradio.m3u8`
 
-if this is successfull,  your first terminal window will log activity to the sxm webservice.
+if this is successfull,  your first terminal window will log activity of the sxm webservice.
 ![](https://github.com/vszander/Amplipi/blob/main/docs/img/SiriusXMstep21.png)
 
 and this second terminal is now 'serving' the  sxm service in VLC.
 ![](https://github.com/vszander/Amplipi/blob/main/docs/img/SiriusXMstep22.png)
+
+## Create a SXM stream in AmpliPi
+
+Navigate to your AmpliPi web page.  1. Click the 'Settings' tab  2.  Click 'Add a New Stream'
+![](https://github.com/vszander/Amplipi/blob/main/docs/img/SiriusXMstep31.png)
+
+Fill in the fields as you like for your desired channel (list of channels created in step 4b above).  The Station Audio URL (highlighted below) is important.
+![](https://github.com/vszander/Amplipi/blob/main/docs/img/SiriusXMstep32.png)
+the channel name from the list should replace `siriusnflradio`.  
+For example to add CNN use:  `http://127.0.0.1:8888/cnn.m3u8`
+
+and 'Save Changes'
+
+Finally, select your new stream in your source tab.
+![](https://github.com/vszander/Amplipi/blob/main/docs/img/SiriusXMstep33.png)
