@@ -16,10 +16,16 @@ The second file (runvlc.py) is already installed on your AmpliPi.  It leverages 
 2.  start a python virtual envirionment
 `cd ~/amplipi-dev/
 source venv/bin/activate `  
+
 3.  move to a preferred directory to download the sxm script
+4.  
 `cd streams`
 `wget https://raw.githubusercontent.com/vszander/Amplipi/main/python/sxm.py`
+
 4a.   test your credentials and access to the SiriusXM webservice by getting the current list of channels
+
 `python3 sxm.py [your sxm accountname] [your sxm password] -l`
+
 4b.  you may want to save this list to a text file.   You will need the channel id or channel name when creating a stream
+
 `python3 sxm.py [your sxm accountname] [your sxm password] -l  > ~/Desktop/sxmchannels.txt`
