@@ -13,3 +13,5 @@ This sketch is intended as a 'code stub' - so others can benefit from the lesson
 -  make an announcement (makeAnnouncement(int)) - I plan to trigger this with a Passive InfraRed motion sensor
   
   the button functionality is based upon the TTGO  [samples](https://github.com/Xinyuan-LilyGO/TTGO-T-Display/tree/master/TFT_eSPI/examples/FactoryTest). 
+##  SiriusXM  as a stream input
+this is the [current integration](https://github.com/vszander/Amplipi/blob/main/python/SiriusXM.md) effort
